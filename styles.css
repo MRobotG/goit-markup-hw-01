@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 .webstudio{
 
 /* Estudio Web */
@@ -64,6 +71,8 @@ letter-spacing: 0.02em;
 
 color: #2196F3;
 
+
+
 }
 
 .contacto{
@@ -92,8 +101,6 @@ color: #212121;
 .infodevstudio{
 
 /* info@devstudio.com */
-
-
 position: absolute;
 width: 135px;
 height: 16px;
@@ -165,7 +172,7 @@ height: 38px;
 left: calc(50% - 73px/2 - 268.5px);
 top: calc(50% - 38px/2 - 735px);
 
-background: #2196F3;
+background: #FFFFFF;
 /* shadow-middle */
 
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -753,7 +760,7 @@ color: #0a0000;
 
 }
 
-.footer{
+footer {
 /* Pie de página bg */
 
 
@@ -761,14 +768,16 @@ position: absolute;
 width: 1600px;
 height: 252px;
 left: 0px;
-top: 4158px;
+top: 2158px;
 
 background: #2F303A;
+
 }
 
-.index{
-/* Estudio */
 
+.index{
+
+    /* Estudio */
 
 position: absolute;
 width: 49px;
@@ -786,9 +795,9 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 
+
 .port{
  /* Portafolio */
-
 
 position: absolute;
 width: 65px;
@@ -835,7 +844,6 @@ width: 1600px;
 height: 600px;
 left: -4px;
 top: 80px;
-
 background: #2F303A;
 }
 
@@ -1173,8 +1181,14 @@ height: 260px;
 left: 208px;
 top: 1696px;
 
-background: url(.jpg);
-border-radius: 0px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+
+
 }
 
 .target{
@@ -1204,8 +1218,11 @@ height: 260px;
 left: 515px;
 top: 1696px;
 
-background: url(.jpg);
-border-radius: 0px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .target2{
     /* tarjeta bg */
@@ -1277,8 +1294,11 @@ height: 260px;
 left: 822px;
 top: 1696px;
 
-background: url(.jpg);
-border-radius: 0px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .mario{/* Mario Dorado */
@@ -1331,8 +1351,11 @@ height: 260px;
 left: 1115px;
 top: 1696px;
 
-background: url(.jpg);
-border-radius: 0px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .pablo{
@@ -1472,18 +1495,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 
 }
-.pie{
-/* Pie de página bg */
 
-
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2158px;
-
-background: #2F303A;
-}
 
 a {
     background-color: powderblue;

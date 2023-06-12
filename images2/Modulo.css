@@ -1,0 +1,99 @@
+.text > span {
+    text-decoration: line-through;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+
+  .site-nav .link {
+    text-transform: uppercase;
+  }
+
+  .post-title {
+    text-align: center;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
+  .align-justify {
+    text-align: justify;
+  }
+
+  .post-text {
+    text-indent: 100px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .post-title {
+    letter-spacing: 10px;
+  }
+  
+  .post-text {
+    letter-spacing: 5px;
+
+  }
+  .title {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .title {
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #6f00ff, 5px 5px 5px #000000;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .title {
+    font-weight: 400;
+  }
+  
+  .text {
+    font-weight: 700;
+  }
+
+  .title {
+    font-style: italic;
+  }
+
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #212121;
+}
+
+.text {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px dashed #212121;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .top {
+    margin-bottom: 20px;
+    background-color: teal;
+  }
+  
+  .bottom {
+    margin-top: 40px;
+    background-color: palevioletred;
+  }

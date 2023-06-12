@@ -1,0 +1,26 @@
+h1{
+    color: black;
+}
+
+
+.h1{
+    color: purple;
+}
+
+.h2
+{
+    color: green;
+}
+
+.h3 {
+    color:yellow
+}
+
+
+
+<style type="text/css">
+          p {
+            color: blue;
+            font-size: 24px;
+          }
+        </style>
