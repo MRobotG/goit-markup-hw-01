@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -15,17 +15,16 @@
     
   <body>
   <!-- Page header -->
-      <header>
+      <header class="container">
       <!-- The logo is always a link -->
           <a class="webstudio" href="#">Web Studio</a>
           <!--Links to other pages or sections of the current page -->
           <nav>
-              <ul></ul>
+              <ul>
                   <li><a class="index" href="./index.html">Estudio</a></li>
                   <li><a class="port" href="./portafolio.html">Portafolio</a></li>
                   <li><a class="contacto" href="#">Contacto</a></li>
-          
-              <!-- tel: + 5555296088 y  mailto:devstudio.com -->
+                  <!-- tel: + 5555296088 y  mailto:devstudio.com -->
                   <li><a class="infodevstudio" href="mailto:info@devsudio.com">Info@example.com</a></li>
                   <li><a class="number" href="tel:+380961111111">+52 55 5529 6000</a></li>
               </ul>
@@ -35,13 +34,14 @@
     <main class="container">
         <section class="bk">
             <h1  class="solution">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <input type="input" class="our frame" value="Solicite nuestro servicio"/>
+            <button class="our frame" value="Solicite nuestro servicio">Solicite nuestro servicio.</button>
         </section>
 
         <section class="box">
             <ul>
-                <li><h4 class="detail">ATENCION A LOS DETALLES</h4>
-                    <p class="p1">Nos adentramos en todos los detalles y procesos de su negocio, para asi desarrollar una solucion a su medida</p></li>
+                <li>
+                  <h4 class="detail">ATENCION A LOS DETALLES</h4>
+                  <p class="p1">Nos adentramos en todos los detalles y procesos de su negocio, para asi desarrollar una solucion a su medida</p></li>
                 <li><h4 class="detail">PUNTUALIDAD</h4>
                     <p class="p3">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempò y respetar los plazos acordados.</p></li>
                 <li><h4 class="detail">PLANIFICACION</h4>
@@ -66,12 +66,12 @@
                 </ul>
         </section>
 
-        <section class="section2">
+        <section class="section2 cards-comtainer">
           <h2 class="team">Nuestro Equipo</h2>
-            <ul>
+            <ul class="card">
               <li>
                 <img src="/goit-markup-hw-01/images/fourth.jpeg" alt="Pedro" width="200" class="img6">
-                <h3 class="andres">Andres Cubo</h3>
+                <h3 class="andres card">Andres Cubo</h3>
                 <p class="product">Diseñador de Producto</p>
               </li>
               <li>
@@ -98,7 +98,7 @@
       <address>
           <ul>
             <li>
-              <a class="add " href="#">Calz. Ticomàn 500, Ciudad de Mèxico, CDXM, Mèxico</a></li>
+              <a class="add" href="#">Calz. Ticomàn 500, Ciudad de Mèxico, CDXM, Mèxico</a></li>
             <li> <a class="examplel" href="mailto:info@devsudio.com">Info@example.com</a></li>
             <li> <a class="number2" href="tel:+380961111111">+52 55 5529 6000</a></li>
           </ul>
